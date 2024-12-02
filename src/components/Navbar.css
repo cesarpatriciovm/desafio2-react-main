@@ -1,0 +1,28 @@
+.layout__navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+}
+
+.navbar__title h2 {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: aliceblue;
+}
+
+.navbar__btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__btns button {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.navbar__cart {
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
